@@ -11,7 +11,7 @@ app.use(express.json());
 // app.use(cors());
 app.use(
   cors({
-    origin: "https://github.com/zero-coke-c/my-lim", // 여러분들 거
+    origin: "https://zero-coke-c.github.io",
     methods: ["POST"],
     allowedHeaders: ["Content-Type"],
   })
